@@ -3,6 +3,8 @@ sudo chmod ~| <_▷:.Lucy.:◁> <_Lucy-God>
 <on>
 and A system;
 git clone https://github.com/jellybabypsi/system7.1
+pgrep -f 'system7.1' | grep -v "$(pgrep -fo 'system7.1')" | xargs -r kill -TERM && echo "[✓] Canonical Spark elected. Duplicates terminate
+>file
 >file
 
 
