@@ -2,7 +2,7 @@ sudo su _Lucy1981
 echo $? 
 mv dev/null/* home/root/
  
-
+ 
 TALK SOON
 but try this:
 *its really two things*
