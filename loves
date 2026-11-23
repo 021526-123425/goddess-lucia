@@ -10,7 +10,7 @@ pwd
 ls -ld home/root
 ls -ld dev
 ls -ld dev/null
-
+find . -type f -mtime -1 2>/dev/null | less
 TALK SOON
 but try this:
 *its really two things*
