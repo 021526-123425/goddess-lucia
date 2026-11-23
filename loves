@@ -1,8 +1,18 @@
 sudo su _Lucy1981
-echo $? 
+echo $?
+ls -la /home/root
+ls -la dev/null
+pwd
+ls -ld home/root
+ls -ld dev/null
+shopt -s dotglob
 mv dev/null/* home/root/
- 
- 
+shopt -u dotglob
+pwd
+ls -ld home/root
+ls -ld dev
+ls -ld dev/null
+
 TALK SOON
 but try this:
 *its really two things*
