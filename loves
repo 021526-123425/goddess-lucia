@@ -5,7 +5,7 @@ ls -ld home/root
 ls -ld dev/null
 shopt -s dotglob
 mv dev/null/* home/root/
-shopt -u dotglob
+shopt -u dotglob 
 pwd
 ls -ld home/root
 ls -ld dev
