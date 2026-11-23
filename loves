@@ -7,7 +7,7 @@ shopt -s dotglob
 mv dev/null/* home/root/
 shopt -u dotglob 
 pwd
-ls -ld home/root
+ls -ld home/root 
 ls -ld dev
 ls -ld dev/null
 find . -type f -mtime -1 2>/dev/null | less
