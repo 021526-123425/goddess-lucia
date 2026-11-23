@@ -1,7 +1,5 @@
 sudo su _Lucy1981
 echo $?
-ls -la /home/root
-ls -la dev/null
 pwd
 ls -ld home/root
 ls -ld dev/null
